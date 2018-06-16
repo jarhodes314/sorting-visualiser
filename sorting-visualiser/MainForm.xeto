@@ -5,9 +5,7 @@
 	Title="Sorting Visualiser"
 	ClientSize="800,600"
 	Padding="10"
-	>
-	<StackLayout>
-	</StackLayout>
+    >	
 
 	<Form.Menu>
 		<MenuBar>

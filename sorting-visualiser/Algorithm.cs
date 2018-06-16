@@ -3,7 +3,7 @@ namespace sorting_visualiser
 {
     public class Algorithm
     {
-        //TODO make this class abstract
+        // TODO make this class abstract
         // it currently isn't to make it easier to test
 
         public string Name { get; private set; }
@@ -15,7 +15,7 @@ namespace sorting_visualiser
 
         public override string ToString()
         {
-            return name;
+            return Name;
         }
 
     }

@@ -15,7 +15,31 @@ namespace sorting_visualiser
         {
             XamlReader.Load(this);
             var lb = LoadAlgorithmsList();
-            Content = lb;
+            var splitter = new Splitter();
+            splitter.Position = 200;
+
+            Drawable drawable = new Drawable();
+            var i = 0;
+            drawable.Paint += (sender, e) =>
+            {
+                if (i == 0)
+                {
+                    e.Graphics.Flush();
+                    e.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 222));
+                    i = 1;
+                }
+                else
+                {
+                    e.Graphics.Flush();
+                    e.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 2222));
+                    i = 2;
+                }
+            };
+                    
+            splitter.Panel1 = lb;
+            splitter.Panel2 = drawable;
+   
+            Content = splitter;
         }
 
         protected void LoadAlgorithms()
