@@ -10,12 +10,17 @@ namespace sorting_visualiser
 	{	
 		public MainForm()
 		{
-			XamlReader.Load(this);
+            XamlReader.Load(this);
+            var lvAlgos = new ListBox();
+            var items = lvAlgos.Items;
+            items.Add("Bubblesort");
+            items.Add("Quicksort");
+            Content = lvAlgos;
 		}
 
 		protected void HandleClickMe(object sender, EventArgs e)
 		{
-			MessageBox.Show("I was clicked!");
+            MessageBox.Show("I was clicked!");
 		}
 
 		protected void HandleAbout(object sender, EventArgs e)
