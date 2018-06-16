@@ -7,9 +7,6 @@
 	Padding="10"
 	>
 	<StackLayout>
-        <ListBox Click="HandleClickMe" x:Name="myList">
-            
-        </ListBox>
 	</StackLayout>
 
 	<Form.Menu>
