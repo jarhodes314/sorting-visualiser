@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace sorting_visualiser
 {
-    public class DisparityCachedList
+    public class DisparityCachedList : List<DisparityValuePair>
     {
         /* a class to calculate and store the list at every step
          * of the visualisation
@@ -13,18 +14,31 @@ namespace sorting_visualiser
          * once the algorithm has terminated
          */
 
-        public struct DisparityValuePair
-        {
-            int Disparity, Value;
+        private readonly int Length;
+        private List<Movement> Cache;
 
-            private DisparityValuePair(int d, int v){
-                Disparity = d;
-                Value = v;
+        public DisparityCachedList(CachingList inputList)
+        {
+            Length = inputList.Count;
+            Cache = inputList.Cache;
+
+            for (int i = 0; i < inputList.Count; i++)
+            {
+                int value = inputList.GetVal(i);
+                int disparity = CalculateDisparity(value, i);
+                this.Add(new DisparityValuePair(disparity, value));
             }
         }
 
-        public DisparityCachedList()
+        public DisparityCachedList StepForward()
         {
+            // TODO fill this in
+            return this;
+        }
+
+        private int CalculateDisparity(int value, int index)
+        {
+            return ((value - index) % Length);
         }
     }
 }
