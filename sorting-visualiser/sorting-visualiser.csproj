@@ -14,4 +14,8 @@
     <PackageReference Include="Eto.Serialization.Xaml" Version="2.4.1" />
   </ItemGroup>
   
+  <ItemGroup>
+    <Compile Remove="VisualisationPanel.cs" />
+    <Compile Remove="CachedList.cs" />
+  </ItemGroup>
 </Project>
