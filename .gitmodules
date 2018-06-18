@@ -1,0 +1,3 @@
+[submodule "sorting-algorithms"]
+	path = sorting-algorithms
+	url = git@github.com:jarhodes314/sorting-algorithms.git
