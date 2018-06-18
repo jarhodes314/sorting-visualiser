@@ -30,13 +30,33 @@ namespace sorting_visualiser
             }
         }
 
-        public DisparityCachedList StepForward()
+        public KeyValuePair<Int32, DisparityCachedList> StepForward()
         {
-            // TODO fill this in
-            return this;
+
+            var index = -1; // index is for a get, -1 if set
+                            // NB this is opposite to before
+            if (Cache.Count != 0)
+            {
+                var thisMove = Cache[0];
+                Cache.RemoveAt(0);
+
+                if (thisMove.value < 0)
+                {
+                    // action is get
+                    index = thisMove.index;
+                }
+                else
+                {
+                    // action is set
+                    var newDisparity = CalculateDisparity(thisMove.value, thisMove.index);
+                    this[thisMove.index] = new DisparityValuePair(newDisparity, thisMove.value);
+                }
+            }
+
+            return new KeyValuePair<int, DisparityCachedList>(index,this);
         }
 
-        private int CalculateDisparity(int value, int index)
+        int CalculateDisparity(int value, int index)
         {
             return ((value - index) % Length);
         }

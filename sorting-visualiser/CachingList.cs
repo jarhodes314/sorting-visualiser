@@ -14,6 +14,12 @@ namespace sorting_visualiser
          * jazz up the visualisations at the end
          */
 
+        public new Int32 this[int index]
+        {
+            get { Cache.Add(new Movement(index, -1)); return index; }
+            set { Cache.Add(new Movement(index, value)); base[index] = value; }
+        }
+
         public List<Movement> Cache = new List<Movement>();
 
         public CachingList(int n) : base()
