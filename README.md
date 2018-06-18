@@ -4,10 +4,10 @@ This project will use [Eto.Forms](https://github.com/picoe/Eto) for first-class,
 
 ## What has been done
 * Create basic interface using Eto
+* Create support for calculating disparity in a list, either using caching or on-the-fly, implementation as yet untested for both general success & performance
 
 ## Things to do
 * Create method to draw the visualisations
-* Create support for calculating disparity in a list, either using caching or on-the-fly
 * Add some algorithms
 
 ## New features (compared to the old version, not necessarily implemented yet)
