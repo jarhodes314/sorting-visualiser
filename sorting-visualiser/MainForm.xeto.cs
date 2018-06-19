@@ -9,7 +9,7 @@ namespace sorting_visualiser
     public class MainForm : Form
     {
         //a dictionary for reverse lookup of algorithm implementations from their name
-        private Dictionary<string, Algorithm> AlgorithmDictionary = new Dictionary<string, Algorithm>();
+        private Dictionary<string, SortingAlgorithm<Int32>> AlgorithmDictionary = new Dictionary<string, SortingAlgorithm<Int32>>();
 
         public MainForm()
         {
@@ -46,12 +46,12 @@ namespace sorting_visualiser
         {
             //create algorithms
             //TODO -- replace these with actual implementations
-            var bs = new Algorithm("BubbleSort");
-            var qs = new Algorithm("QuickSort");
+            //var bs = new SortingAlgorithm<Int32>("BubbleSort");
+            //var qs = new SortingAlgorithm<Int32>("QuickSort");
 
             //add them to the dictionary
-            AlgorithmDictionary[bs.Name] = bs;
-            AlgorithmDictionary[qs.Name] = qs;
+            //AlgorithmDictionary[bs.Name] = bs;
+            //AlgorithmDictionary[qs.Name] = qs;
         }
 
         protected ListBox LoadAlgorithmsList()
@@ -62,7 +62,7 @@ namespace sorting_visualiser
             var lbAlgorithms = new ListBox();
             LoadAlgorithms();
 
-            foreach (KeyValuePair<string, Algorithm> entry in AlgorithmDictionary)
+            foreach (KeyValuePair<string, SortingAlgorithm<Int32>> entry in AlgorithmDictionary)
             {
                 lbAlgorithms.Items.Add(entry.Key);
             }
