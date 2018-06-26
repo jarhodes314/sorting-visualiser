@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace sorting_visualiser
+namespace RhodesSort.Visualiser
 {
     public class CachingList : List<Int32>
     {

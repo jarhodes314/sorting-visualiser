@@ -1,5 +1,5 @@
 ﻿using System;
-namespace sorting_visualiser
+namespace RhodesSort.Visualiser
 {
     public struct Movement
     {

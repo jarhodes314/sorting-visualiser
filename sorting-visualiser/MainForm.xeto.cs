@@ -3,25 +3,32 @@ using System.Collections.Generic;
 using Eto.Forms;
 using Eto.Drawing;
 using Eto.Serialization.Xaml;
+using RhodesSort.Algorithms;
 
-namespace sorting_visualiser
-{    
+namespace RhodesSort.Visualiser
+{
     public class MainForm : Form
     {
+        private readonly ListBox lb;
+        private SortingAlgorithm instance;
+
         //a dictionary for reverse lookup of algorithm implementations from their name
-        private Dictionary<string, SortingAlgorithm<Int32>> AlgorithmDictionary = new Dictionary<string, SortingAlgorithm<Int32>>();
+        private Dictionary<string, SortingAlgorithm> AlgorithmDictionary = new Dictionary<string, SortingAlgorithm>();
 
         public MainForm()
         {
             XamlReader.Load(this);
-            var lb = LoadAlgorithmsList();
-            var splitter = new Splitter();
+            lb = LoadAlgorithmsList();
+            lb.SelectedIndexChanged += lb_SelectedIndexChanged;
+            var splitter = new Splitter();  // a vertical split between the listbox and graphics panel
             splitter.Position = 200;
 
             Drawable drawable = new Drawable();
             var i = 0;
             drawable.Paint += (sender, e) =>
             {
+                // the refresh method that will draw the thing
+
                 if (i == 0)
                 {
                     e.Graphics.Flush();
@@ -35,10 +42,10 @@ namespace sorting_visualiser
                     i = 2;
                 }
             };
-                    
+
             splitter.Panel1 = lb;
             splitter.Panel2 = drawable;
-   
+
             Content = splitter;
         }
 
@@ -47,10 +54,8 @@ namespace sorting_visualiser
             //create algorithms
             //TODO -- replace these with actual implementations
             //var bs = new SortingAlgorithm<Int32>("BubbleSort");
-            //var qs = new SortingAlgorithm<Int32>("QuickSort");
-
-            //add them to the dictionary
-            //AlgorithmDictionary[bs.Name] = bs;
+            SortingAlgorithm bs = new BubbleSort();
+            AlgorithmDictionary["Bubble sort"] = bs;
             //AlgorithmDictionary[qs.Name] = qs;
         }
 
@@ -62,7 +67,7 @@ namespace sorting_visualiser
             var lbAlgorithms = new ListBox();
             LoadAlgorithms();
 
-            foreach (KeyValuePair<string, SortingAlgorithm<Int32>> entry in AlgorithmDictionary)
+            foreach (KeyValuePair<string, SortingAlgorithm> entry in AlgorithmDictionary)
             {
                 lbAlgorithms.Items.Add(entry.Key);
             }
@@ -83,6 +88,11 @@ namespace sorting_visualiser
         protected void HandleQuit(object sender, EventArgs e)
         {
             Application.Instance.Quit();
+        }
+
+        public void lb_SelectedIndexChanged(object sender, System.EventArgs e)
+        {
+            Eto.Forms.MessageBox.Show(lb.SelectedKey.ToString(), Eto.Forms.MessageBoxButtons.OK);
         }
     }
 }

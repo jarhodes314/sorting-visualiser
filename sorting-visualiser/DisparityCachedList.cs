@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace sorting_visualiser
+namespace RhodesSort.Visualiser
 {
     public class DisparityCachedList : List<DisparityValuePair>
     {
@@ -58,7 +58,16 @@ namespace sorting_visualiser
 
         int CalculateDisparity(int value, int index)
         {
-            return ((value - index) % Length);
+            int max = Math.Max(value, index);
+            int min = Math.Min(value, index);
+            int disparity;
+
+            if (max - min > Length / 2)
+                disparity = min + Length - max;
+            else
+                disparity = max - min;
+
+            return disparity;
         }
     }
 }

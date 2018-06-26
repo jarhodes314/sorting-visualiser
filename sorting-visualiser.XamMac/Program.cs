@@ -1,7 +1,7 @@
 ﻿using AppKit;
 using Eto.Forms;
 
-namespace sorting_visualiser.XamMac
+namespace RhodesSort.Visualiser.XamMac
 {
 	static class MainClass
 	{
