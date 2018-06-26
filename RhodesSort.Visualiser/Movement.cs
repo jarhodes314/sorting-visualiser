@@ -11,5 +11,10 @@ namespace RhodesSort.Visualiser
             index = x;
             value = v;
         }
+
+        public override string ToString()
+        {
+            return ("{" + index + "},{" + value + "}");
+        }
     }
 }

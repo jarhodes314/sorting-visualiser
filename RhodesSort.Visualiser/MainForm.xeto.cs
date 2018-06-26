@@ -9,39 +9,29 @@ namespace RhodesSort.Visualiser
 {
     public class MainForm : Form
     {
+        // the listbox used to select an algorithm
         private readonly ListBox lb;
+
+        // the sorting instance currently being displayed
         private SortingAlgorithm instance;
 
         //a dictionary for reverse lookup of algorithm implementations from their name
         private Dictionary<string, SortingAlgorithm> AlgorithmDictionary = new Dictionary<string, SortingAlgorithm>();
+
+        // the drawable which will contain the visualisation
+        private Drawable drawable;
+
+        private Splitter splitter;
 
         public MainForm()
         {
             XamlReader.Load(this);
             lb = LoadAlgorithmsList();
             lb.SelectedIndexChanged += lb_SelectedIndexChanged;
-            var splitter = new Splitter();  // a vertical split between the listbox and graphics panel
+            splitter = new Splitter();  // a vertical split between the listbox and graphics panel
             splitter.Position = 200;
 
-            Drawable drawable = new Drawable();
-            var i = 0;
-            drawable.Paint += (sender, e) =>
-            {
-                // the refresh method that will draw the thing
-
-                if (i == 0)
-                {
-                    e.Graphics.Flush();
-                    e.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 222));
-                    i = 1;
-                }
-                else
-                {
-                    e.Graphics.Flush();
-                    e.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 2222));
-                    i = 2;
-                }
-            };
+            drawable = new Drawable();
 
             splitter.Panel1 = lb;
             splitter.Panel2 = drawable;
@@ -92,7 +82,41 @@ namespace RhodesSort.Visualiser
 
         public void lb_SelectedIndexChanged(object sender, System.EventArgs e)
         {
-            Eto.Forms.MessageBox.Show(lb.SelectedKey.ToString(), Eto.Forms.MessageBoxButtons.OK);
+            SortingAlgorithm algorithm = AlgorithmDictionary[lb.SelectedKey.ToString()];
+            instance = algorithm;
+            CachingList list = new CachingList(1000);
+            FisherYates.Shuffle<Int32>(list);
+
+            Console.WriteLine(string.Join<int>(",", list));
+            instance.Sort<Int32>(list);
+
+            Console.WriteLine(string.Join<int>(",", list));
+
+            DisparityCachedList disparities = new DisparityCachedList(list);
+
+            drawable = new Drawable();
+
+            var i = 0;
+            drawable.Paint += (senderu, pe) =>
+            {
+                // the refresh method that will draw the thing
+
+                if (i == 0)
+                {
+                    pe.Graphics.Flush();
+                    pe.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 222));
+                    i = 1;
+                }
+                else
+                {
+                    pe.Graphics.Flush();
+                    pe.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 2222));
+                    i = 2;
+                }
+            };
+
+            splitter.Panel1 = lb;
+            splitter.Panel2 = drawable;
         }
     }
 }

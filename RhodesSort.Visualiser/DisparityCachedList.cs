@@ -14,7 +14,7 @@ namespace RhodesSort.Visualiser
          * once the algorithm has terminated
          */
 
-        private readonly int Length;
+        public readonly int Length;
         private List<Movement> Cache;
 
         public DisparityCachedList(CachingList inputList)

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>RhodesSort.Visualiser</RootNamespace>
     <PackageVersion>1.0</PackageVersion>
     <Title>sorting-visualiser</Title>
@@ -25,8 +25,8 @@
     <Reference Include="RhodesSort.Algorithms">
       <HintPath>..\sorting-algorithms\sorting-algorithm\bin\Release\netstandard2.0\RhodesSort.Algorithms.dll</HintPath>
     </Reference>
-    <Reference Include="RhodesSort.Algorithms">
-      <HintPath>..\RhodesSort.Algorithms\sorting-algorithm\bin\Release\netstandard2.0\RhodesSort.Algorithms.dll</HintPath>
-    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RhodesSort.Algorithms\RhodesSort.Algorithms\RhodesSort.Algorithms.csproj" />
   </ItemGroup>
 </Project>
