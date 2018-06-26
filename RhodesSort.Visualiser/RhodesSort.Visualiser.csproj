@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>RhodesSort.Visualiser</RootNamespace>
+    <PackageVersion>1.0</PackageVersion>
+    <Title>sorting-visualiser</Title>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Description of sorting-visualiser</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Eto.Forms" Version="2.4.1" />
+    <PackageReference Include="Eto.Serialization.Xaml" Version="2.4.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Remove="VisualisationPanel.cs" />
+    <Compile Remove="CachedList.cs" />
+    <Compile Remove="Position.cs" />
+    <Compile Remove="SortingAlgorithm copy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="netstandard" />
+    <Reference Include="RhodesSort.Algorithms">
+      <HintPath>..\sorting-algorithms\sorting-algorithm\bin\Release\netstandard2.0\RhodesSort.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="RhodesSort.Algorithms">
+      <HintPath>..\RhodesSort.Algorithms\sorting-algorithm\bin\Release\netstandard2.0\RhodesSort.Algorithms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
