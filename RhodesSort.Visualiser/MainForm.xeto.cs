@@ -41,12 +41,17 @@ namespace RhodesSort.Visualiser
 
         protected void LoadAlgorithms()
         {
-            //create algorithms
-            //TODO -- replace these with actual implementations
-            //var bs = new SortingAlgorithm<Int32>("BubbleSort");
-            SortingAlgorithm bs = new BubbleSort();
-            AlgorithmDictionary["Bubble sort"] = bs;
-            //AlgorithmDictionary[qs.Name] = qs;
+            List<SortingAlgorithm> list = new List<SortingAlgorithm>();
+
+            list.Add(new BubbleSort());
+            list.Add(new CocktailShakerSort());
+            list.Add(new SelectionSort());
+            list.Add(new InsertionSort());
+
+            foreach (var item in list)
+            {
+                AlgorithmDictionary[item.ToString()] = item;
+            }
         }
 
         protected ListBox LoadAlgorithmsList()
@@ -82,9 +87,14 @@ namespace RhodesSort.Visualiser
 
         public void lb_SelectedIndexChanged(object sender, System.EventArgs e)
         {
+            if(lb.SelectedKey == null)
+            {
+                return;
+            }
+
             SortingAlgorithm algorithm = AlgorithmDictionary[lb.SelectedKey.ToString()];
             instance = algorithm;
-            CachingList list = new CachingList(1000);
+            CachingList list = new CachingList(500);
             FisherYates.Shuffle<Int32>(list);
 
             Console.WriteLine(string.Join<int>(",", list));
@@ -95,10 +105,19 @@ namespace RhodesSort.Visualiser
             DisparityCachedList disparities = new DisparityCachedList(list);
             DisparityDots dots = new DisparityDots(disparities);
 
-            drawable = new Drawable();
+            dots.Speed = 30;
 
-            var i = 0;
+            drawable = new Drawable();
             drawable.Paint += dots.OnPaint;
+
+            UITimer timer = new UITimer();
+            timer.Interval = 0.005;
+            //Drawable.RegisterEvent(dots.OnPaint,)
+            timer.Elapsed += (ts, te) =>
+            {
+                drawable.Update(new Rectangle(0, 0, drawable.Width, drawable.Height));
+            };
+            timer.Start();
 
             splitter.Panel1 = lb;
             splitter.Panel2 = drawable;

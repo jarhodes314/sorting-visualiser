@@ -9,7 +9,11 @@ namespace RhodesSort.Visualiser
         private int length;
         private DisparityCachedList disparities;
 
+        private Graphics graphics;
+
         private int width, height, paddingw, paddingh, refw, refh;
+
+        public int Speed { get; set; } = 1;
 
         private static Color DotColor(int value, int length)
         {
@@ -49,11 +53,7 @@ namespace RhodesSort.Visualiser
 
         public void OnPaint(Object sender, PaintEventArgs pe)
         {
-            pe.Graphics.Flush();
-
-            var indexListPair = disparities.StepForward();
-            var list = indexListPair.Value;
-            var index = indexListPair.Key;
+            graphics = pe.Graphics;
 
             width = (int)pe.ClipRectangle.Width;
             height = (int)pe.ClipRectangle.Height;
@@ -63,12 +63,37 @@ namespace RhodesSort.Visualiser
             refw = width - paddingw * 2;
             refh = height - paddingh * 2;
 
-            foreach(DisparityValuePair dvp in list)
+
+            for (int i = 0; i < Speed - 1; i++)
+            {
+                disparities.StepForward();
+            }
+
+            var indexListPair = disparities.StepForward();
+
+            var list = indexListPair.Value;
+            var index = indexListPair.Key;
+
+            //graphics.FillRectangle(new SolidBrush(Colors.Black), graphics.ClipBounds);
+
+            if (index != -1)
+            {
+                var value = list[index].Value;
+                var rect = GetRectangle(list[index].Value, list[index].Disparity);
+                // coordinates of the centre
+                float cx = paddingw + refw / 2f;
+                float cy = paddingh + refh / 2f;
+                graphics.DrawLine(Colors.Black, cx, cy, rect.X, rect.Y);
+                graphics.FillEllipse(new SolidBrush(DotColor(value, length)), rect);
+            }
+
+
+            int x = 0;
+            foreach (DisparityValuePair dvp in list)
             {
                 Color color = DotColor(dvp.Value, length);
-                
-                pe.Graphics.FillEllipse(new SolidBrush(color), GetRectangle(dvp.Value,dvp.Disparity));
-                //pe.Graphics.FillEllipse(new SolidBrush(color), dvp.Value / 1000f * refw + paddingw, dvp.Value / 1000f * refh + paddingh, 5f, 5f);
+
+                graphics.FillEllipse(new SolidBrush(color), GetRectangle(x++, dvp.Disparity));
             }
         }
     }
