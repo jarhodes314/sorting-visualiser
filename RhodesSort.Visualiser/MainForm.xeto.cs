@@ -93,27 +93,12 @@ namespace RhodesSort.Visualiser
             Console.WriteLine(string.Join<int>(",", list));
 
             DisparityCachedList disparities = new DisparityCachedList(list);
+            DisparityDots dots = new DisparityDots(disparities);
 
             drawable = new Drawable();
 
             var i = 0;
-            drawable.Paint += (senderu, pe) =>
-            {
-                // the refresh method that will draw the thing
-
-                if (i == 0)
-                {
-                    pe.Graphics.Flush();
-                    pe.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 222));
-                    i = 1;
-                }
-                else
-                {
-                    pe.Graphics.Flush();
-                    pe.Graphics.DrawLine(Colors.Blue, PointF.Empty, new PointF(222, 2222));
-                    i = 2;
-                }
-            };
+            drawable.Paint += dots.OnPaint;
 
             splitter.Panel1 = lb;
             splitter.Panel2 = drawable;
