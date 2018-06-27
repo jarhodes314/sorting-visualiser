@@ -1,0 +1,26 @@
+2018-06-15 21:48:29.525 sorting-visualiser.XamMac[858:25152] 
+Unhandled Exception:
+Portable.Xaml.XamlObjectWriterException: Cannot set unknown member '{http://schema.picoe.ca/eto.forms}ListBox.Name'
+  at Portable.Xaml.XamlObjectWriterInternal.OnWriteStartMember (Portable.Xaml.XamlMember property) [0x00051] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlWriterInternalBase.WriteStartMember (Portable.Xaml.XamlMember property) [0x0009e] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlObjectWriter.WriteStartMember (Portable.Xaml.XamlMember property) [0x0002f] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlWriter.WriteNode (Portable.Xaml.XamlReader reader) [0x0006a] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlServices.Transform (Portable.Xaml.XamlReader xamlReader, Portable.Xaml.XamlWriter xamlWriter, System.Boolean closeWriter) [0x0002d] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlServices.Transform (Portable.Xaml.XamlReader xamlReader, Portable.Xaml.XamlWriter xamlWriter) [0x00000] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Eto.Serialization.Xaml.XamlReader.Load[T] (Portable.Xaml.XamlXmlReader reader, T instance) [0x0003c] in <e42de3a017624cc6b779ab3ece3e7092>:0 
+  at Eto.Serialization.Xaml.XamlReader.Load[T] (System.IO.Stream stream, T instance) [0x0002e] in <e42de3a017624cc6b779ab3ece3e7092>:0 
+  at Eto.Serialization.Xaml.XamlReader.Load[T] (T instance) [0x00010] in <e42de3a017624cc6b779ab3ece3e7092>:0 
+  at sorting_visualiser.MainForm..ctor () [0x00008] in /Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/MainForm.xeto.cs:13 
+  at sorting_visualiser.XamMac.MainClass.Main (System.String[] args) [0x00001] in /Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/Program.cs:10 
+[ERROR] FATAL UNHANDLED EXCEPTION: Portable.Xaml.XamlObjectWriterException: Cannot set unknown member '{http://schema.picoe.ca/eto.forms}ListBox.Name'
+  at Portable.Xaml.XamlObjectWriterInternal.OnWriteStartMember (Portable.Xaml.XamlMember property) [0x00051] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlWriterInternalBase.WriteStartMember (Portable.Xaml.XamlMember property) [0x0009e] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlObjectWriter.WriteStartMember (Portable.Xaml.XamlMember property) [0x0002f] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlWriter.WriteNode (Portable.Xaml.XamlReader reader) [0x0006a] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlServices.Transform (Portable.Xaml.XamlReader xamlReader, Portable.Xaml.XamlWriter xamlWriter, System.Boolean closeWriter) [0x0002d] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Portable.Xaml.XamlServices.Transform (Portable.Xaml.XamlReader xamlReader, Portable.Xaml.XamlWriter xamlWriter) [0x00000] in <28df86ea88754743bfb99b6c7f35e71e>:0 
+  at Eto.Serialization.Xaml.XamlReader.Load[T] (Portable.Xaml.XamlXmlReader reader, T instance) [0x0003c] in <e42de3a017624cc6b779ab3ece3e7092>:0 
+  at Eto.Serialization.Xaml.XamlReader.Load[T] (System.IO.Stream stream, T instance) [0x0002e] in <e42de3a017624cc6b779ab3ece3e7092>:0 
+  at Eto.Serialization.Xaml.XamlReader.Load[T] (T instance) [0x00010] in <e42de3a017624cc6b779ab3ece3e7092>:0 
+  at sorting_visualiser.MainForm..ctor () [0x00008] in /Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/MainForm.xeto.cs:13 
+  at sorting_visualiser.XamMac.MainClass.Main (System.String[] args) [0x00001] in /Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/Program.cs:10 

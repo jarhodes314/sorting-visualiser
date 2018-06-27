@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{19ED064A-B862-47DB-93F6-2C2D167A2FE1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RhodesSort.Algorithms/RhodesSort.Algorithms/QuickSort.cs">
+    <Files>
+      <File FileName="RhodesSort.Visualiser/MainForm.xeto.cs" Line="49" Column="42" />
+      <File FileName="RhodesSort.Visualiser.Desktop/Program.cs" Line="12" Column="1" />
+      <File FileName="RhodesSort.Visualiser/CachingList.cs" Line="23" Column="1" />
+      <File FileName="RhodesSort.Algorithms/RhodesSort.Algorithms/InsertionSort.cs" Line="18" Column="38" />
+      <File FileName="RhodesSort.Algorithms/RhodesSort.Algorithms/CocktailShakerSort.cs" Line="32" Column="36" />
+      <File FileName="RhodesSort.Algorithms/RhodesSort.Algorithms/BubbleSort.cs" Line="18" Column="39" />
+      <File FileName="RhodesSort.Algorithms/RhodesSort.Algorithms/QuickSort.cs" Line="14" Column="12" />
+      <File FileName="RhodesSort.Algorithms/RhodesSort.Algorithms/SelectionSort.cs" Line="8" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sorting-visualiser" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="RhodesSort.Algorithms" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="SdkDependencies" expanded="True" />
+              </Node>
+              <Node name="QuickSort.cs" selected="True" />
+            </Node>
+            <Node name="RhodesSort.Visualiser" expanded="True">
+              <Node name="MainForm.xeto" expanded="True" />
+            </Node>
+            <Node name="RhodesSort.Visualiser.Desktop" expanded="True" />
+            <Node name="RhodesSort.Visualiser.XamMac" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="sorting-visualiser" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RhodesSort.Visualiser.Desktop PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

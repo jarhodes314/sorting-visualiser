@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ab95bdc-535a-4a94-824f-b2360799933e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sorting-algorithms/.idea/.idea.sorting-algorithms/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting-algorithms/.idea/.idea.sorting-algorithms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting-algorithms/.idea/.idea.sorting-algorithms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting-algorithms/.idea/.idea.sorting-algorithms/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting-visualiser/Position.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/BubbleSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/BubbleSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/CocktailShakerSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/CocktailShakerSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/FisherYates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/FisherYates.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/InsertionSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/InsertionSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/SelectionSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/SelectionSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/SortingAlgorithm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-algorithms/sorting-algorithm/SortingAlgorithm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-visualiser/DisparityCachedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-visualiser/DisparityCachedList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-visualiser/DisparityDots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-visualiser/DisparityDots.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-visualiser/SortingAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting-visualiser/sorting-visualiser.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/sorting-visualiser/sorting-visualiser.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainForm.xeto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding>
+                <marker date="1529068122345" expanded="true" signature="6:49" ph="..." />
+                <marker date="1529068122345" expanded="true" signature="104:227" ph="{...}" />
+                <marker date="1529068122345" expanded="true" signature="155:224" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <marker date="1529068122453" expanded="false" signature="6:30" ph="..." />
+                <marker date="1529068122453" expanded="true" signature="67:206" ph="{...}" />
+                <marker date="1529068122453" expanded="true" signature="93:204" ph="{...}" />
+                <marker date="1529068122453" expanded="true" signature="130:201" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.xeto.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding>
+                <marker date="1529612059792" expanded="true" signature="6:121" ph="..." />
+                <marker date="1529612059792" expanded="true" signature="151:2651" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="190:2649" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="429:1320" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="714:1178" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="756:949" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="970:1164" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="1361:1748" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="1384:1738" ph="/* create algorithms ... */" />
+                <marker date="1529612059792" expanded="true" signature="1796:2254" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="1819:1963" ph="/* initiates listbox full of algorithms ... */" />
+                <marker date="1529612059792" expanded="true" signature="2131:2210" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="2320:2387" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="2451:2519" ph="{...}" />
+                <marker date="1529612059792" expanded="true" signature="2582:2643" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sorting-visualiser/DisparityCachedList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sorting-visualiser/Algorithm.cs" />
+        <option value="$PROJECT_DIR$/sorting-visualiser/MainForm.xeto" />
+        <option value="$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1366" />
+    <option name="height" value="746" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="sorting-visualiser (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Xamarin.Mac.Mac Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/sorting-visualiser.Desktop/bin/Debug/net461/sorting-visualiser.Desktop.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting-visualiser.Desktop" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/sorting-visualiser.Desktop/sorting-visualiser.Desktop.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+    <configuration name="Mac Default" type="XamarinMacProject" factoryName="Xamarin.Mac">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/sorting-visualiser.XamMac/sorting-visualiser.XamMac.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting-visualiser.XamMac/bin/Debug" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue="Xamarin.Mac.Mac Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ab95bdc-535a-4a94-824f-b2360799933e" name="Default" comment="" />
+      <created>1529149958274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529149958274</updated>
+      <workItem from="1529149959733" duration="652000" />
+      <workItem from="1529448319959" duration="944000" />
+      <workItem from="1529449363726" duration="344000" />
+      <workItem from="1529449813837" duration="24000" />
+      <workItem from="1529449885065" duration="499000" />
+      <workItem from="1529604144910" duration="2313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4776000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1366" height="746" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298647" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32973805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812688" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32973805" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1529068122345" expanded="true" signature="6:49" ph="..." />
+            <marker date="1529068122345" expanded="true" signature="104:227" ph="{...}" />
+            <marker date="1529068122345" expanded="true" signature="155:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1529068122453" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529068122453" expanded="true" signature="67:206" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="93:204" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="130:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1529612059792" expanded="true" signature="6:121" ph="..." />
+            <marker date="1529612059792" expanded="true" signature="151:2651" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="190:2649" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="429:1320" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="714:1178" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="756:949" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="970:1164" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1361:1748" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1384:1738" ph="/* create algorithms ... */" />
+            <marker date="1529612059792" expanded="true" signature="1796:2254" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1819:1963" ph="/* initiates listbox full of algorithms ... */" />
+            <marker date="1529612059792" expanded="true" signature="2131:2210" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2320:2387" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2451:2519" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2582:2643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1529068122345" expanded="true" signature="6:49" ph="..." />
+            <marker date="1529068122345" expanded="true" signature="104:227" ph="{...}" />
+            <marker date="1529068122345" expanded="true" signature="155:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1529612059792" expanded="true" signature="6:121" ph="..." />
+            <marker date="1529612059792" expanded="true" signature="151:2651" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="190:2649" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="429:1320" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="714:1178" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="756:949" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="970:1164" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1361:1748" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1384:1738" ph="/* create algorithms ... */" />
+            <marker date="1529612059792" expanded="true" signature="1796:2254" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1819:1963" ph="/* initiates listbox full of algorithms ... */" />
+            <marker date="1529612059792" expanded="true" signature="2131:2210" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2320:2387" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2451:2519" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2582:2643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1529068122453" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529068122453" expanded="true" signature="67:206" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="93:204" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="130:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1529068122345" expanded="true" signature="6:49" ph="..." />
+            <marker date="1529068122345" expanded="true" signature="104:227" ph="{...}" />
+            <marker date="1529068122345" expanded="true" signature="155:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1529068122453" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529068122453" expanded="true" signature="67:206" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="93:204" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="130:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1529068122345" expanded="true" signature="6:49" ph="..." />
+            <marker date="1529068122345" expanded="true" signature="104:227" ph="{...}" />
+            <marker date="1529068122345" expanded="true" signature="155:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1529068122453" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529068122453" expanded="true" signature="67:206" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="93:204" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="130:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/Algorithm.cs" />
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1529068122345" expanded="true" signature="6:49" ph="..." />
+            <marker date="1529068122345" expanded="true" signature="104:227" ph="{...}" />
+            <marker date="1529068122345" expanded="true" signature="155:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <marker date="1529068122453" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529068122453" expanded="true" signature="67:206" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="93:204" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="130:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/Algorithm.cs" />
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.Desktop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1529068122345" expanded="true" signature="6:49" ph="..." />
+            <marker date="1529068122345" expanded="true" signature="104:227" ph="{...}" />
+            <marker date="1529068122345" expanded="true" signature="155:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser.XamMac/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1529068122453" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529068122453" expanded="true" signature="67:206" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="93:204" ph="{...}" />
+            <marker date="1529068122453" expanded="true" signature="130:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/sorting-visualiser.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting-visualiser/MainForm.xeto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <marker date="1529612059792" expanded="true" signature="6:121" ph="..." />
+            <marker date="1529612059792" expanded="true" signature="151:2651" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="190:2649" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="429:1320" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="714:1178" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="756:949" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="970:1164" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1361:1748" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1384:1738" ph="/* create algorithms ... */" />
+            <marker date="1529612059792" expanded="true" signature="1796:2254" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="1819:1963" ph="/* initiates listbox full of algorithms ... */" />
+            <marker date="1529612059792" expanded="true" signature="2131:2210" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2320:2387" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2451:2519" ph="{...}" />
+            <marker date="1529612059792" expanded="true" signature="2582:2643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

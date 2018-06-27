@@ -1,0 +1,12 @@
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/bin/Debug/netstandard1.6/sorting-visualiser.deps.json
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/bin/Debug/netstandard1.6/sorting-visualiser.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/bin/Debug/netstandard1.6/sorting-visualiser.pdb
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/obj/Debug/netstandard1.6/sorting-visualiser.csprojResolveAssemblyReference.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/obj/Debug/netstandard1.6/sorting-visualiser.csproj.CoreCompileInputs.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/obj/Debug/netstandard1.6/sorting-visualiser.AssemblyInfoInputs.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/obj/Debug/netstandard1.6/sorting-visualiser.AssemblyInfo.cs
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/obj/Debug/netstandard1.6/sorting-visualiser.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/obj/Debug/netstandard1.6/sorting-visualiser.pdb
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/bin/Debug/netstandard1.6/RhodesSort.Algorithms.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/bin/Debug/netstandard1.6/RhodesSort.Algorithms.pdb
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/obj/Debug/netstandard1.6/sorting-visualiser.csproj.CopyComplete

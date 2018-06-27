@@ -1,0 +1,48 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.Desktop/sorting-visualiser.Desktop.csproj",
+    "projectName": "sorting-visualiser.Desktop",
+    "projectPath": "/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.Desktop/sorting-visualiser.Desktop.csproj",
+    "outputPath": "/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.Desktop/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net461"
+    ],
+    "frameworks": {
+      "net461": {
+        "projectReferences": {
+          "/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/sorting-visualiser.csproj": {
+            "projectPath": "/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser/sorting-visualiser.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net461": {
+      "dependencies": {
+        "Eto.Platform.Gtk": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "Eto.Platform.Mac64": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "Eto.Platform.Wpf": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        }
+      }
+    }
+  }
+}

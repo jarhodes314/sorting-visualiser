@@ -1,0 +1,17 @@
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/sorting-visualiser.XamMac.exe
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/Eto.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/Eto.XamMac2.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/Eto.Serialization.Xaml.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/Portable.Xaml.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/RhodesSort.Visualiser.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/RhodesSort.Algorithms.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/RhodesSort.Visualiser.pdb
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/bin/Release/RhodesSort.Algorithms.pdb
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/actool/partial-info.plist
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/actool/asset-manifest.plist
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/actool/bundle/AppIcon.icns
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/actool/bundle/Assets.car
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/RhodesSort.Visualiser.XamMac.csprojResolveAssemblyReference.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/RhodesSort.Visualiser.XamMac.csproj.CoreCompileInputs.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/RhodesSort.Visualiser.XamMac.csproj.CopyComplete
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/RhodesSort.Visualiser.XamMac/obj/Release/sorting-visualiser.XamMac.exe

@@ -1,0 +1,8 @@
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/partial-info.plist
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/asset-manifest.plist
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/bundle/AppIcon.icns
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/bundle/Assets.car
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/RhodesSort.Visualiser.XamMac.csprojResolveAssemblyReference.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/RhodesSort.Visualiser.XamMac.csproj.CoreCompileInputs.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/sorting-visualiser.XamMac.exe
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/sorting-visualiser.XamMac.pdb

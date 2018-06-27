@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_sorting-visualiser.232706713.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="README.md" t="Include" />
+      <e p="Solution Items" t="Include" />
+      <e p="sorting-algorithms.deps.json" t="Include" />
+      <e p="sorting-algorithms.dll" t="Include" />
+      <e p="sorting-algorithms.pdb" t="Include" />
+      <e p="sorting-visualiser" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CachingList.cs" t="Include" />
+        <e p="DisparityCachedList.cs" t="Include" />
+        <e p="DisparityDots.cs" t="Include" />
+        <e p="DisparityValuePair.cs" t="Include" />
+        <e p="MainForm.xeto" t="Include" />
+        <e p="MainForm.xeto.cs" t="Include" />
+        <e p="Movement.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard1.6" t="Include">
+              <e p="sorting-visualiser.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="sorting-visualiser.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="sorting-visualiser.Desktop" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Info.plist" t="Include" />
+        <e p="MacIcon.icns" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net461" t="Include">
+              <e p="sorting-visualiser.Desktop.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="sorting-visualiser.Desktop.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="sorting-visualiser.sln" t="IncludeFlat" />
+      <e p="sorting-visualiser.XamMac" t="IncludeRecursive">
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="AppIcon-128.png" t="Include" />
+            <e p="AppIcon-128@2x.png" t="Include" />
+            <e p="AppIcon-16.png" t="Include" />
+            <e p="AppIcon-16@2x.png" t="Include" />
+            <e p="AppIcon-256.png" t="Include" />
+            <e p="AppIcon-256@2x.png" t="Include" />
+            <e p="AppIcon-32.png" t="Include" />
+            <e p="AppIcon-32@2x.png" t="Include" />
+            <e p="AppIcon-512.png" t="Include" />
+            <e p="AppIcon-512@2x.png" t="Include" />
+            <e p="Contents.json" t="Include" />
+          </e>
+          <e p="Contents.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Info.plist" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="sorting-visualiser.XamMac.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

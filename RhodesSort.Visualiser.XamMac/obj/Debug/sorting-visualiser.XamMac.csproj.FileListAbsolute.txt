@@ -1,0 +1,16 @@
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/sorting-visualiser.XamMac.exe
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/sorting-visualiser.XamMac.pdb
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/Eto.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/Eto.XamMac2.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/Eto.Serialization.Xaml.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/Portable.Xaml.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/sorting-visualiser.dll
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/bin/Debug/sorting-visualiser.pdb
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/partial-info.plist
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/asset-manifest.plist
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/bundle/AppIcon.icns
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/actool/bundle/Assets.car
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/sorting-visualiser.XamMac.csprojResolveAssemblyReference.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/sorting-visualiser.XamMac.csproj.CoreCompileInputs.cache
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/sorting-visualiser.XamMac.exe
+/Users/james/RiderProjects/SortingVisualiser/sorting-visualiser/sorting-visualiser.XamMac/obj/Debug/sorting-visualiser.XamMac.pdb

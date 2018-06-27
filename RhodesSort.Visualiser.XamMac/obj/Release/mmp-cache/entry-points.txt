@@ -1,0 +1,16 @@
+Function=xamarin_timezone_get_data
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=xamarin_nfloat_objc_msgSend
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/x86_64/mobile/Xamarin.Mac.dll
+Function=xamarin_nfloat_objc_msgSendSuper
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/x86_64/mobile/Xamarin.Mac.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/x86_64/mobile/Xamarin.Mac.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/x86_64/mobile/Xamarin.Mac.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/x86_64/mobile/Xamarin.Mac.dll
+Function=xamarin_get_block_descriptor
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/x86_64/mobile/Xamarin.Mac.dll
+Function=xamarin_init_nsthread
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/4.4.1.193/lib/x86_64/mobile/Xamarin.Mac.dll

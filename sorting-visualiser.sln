@@ -1,0 +1,55 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55221DDF-08FA-4F9C-AE5E-44286B302381}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		RhodesSort.Algorithms.deps.json = RhodesSort.Algorithms.deps.json
+		RhodesSort.Algorithms.dll = RhodesSort.Algorithms.dll
+		RhodesSort.Algorithms.pdb = RhodesSort.Algorithms.pdb
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhodesSort.Visualiser", "RhodesSort.Visualiser\RhodesSort.Visualiser.csproj", "{65289B1F-4087-415D-9A46-F5093DFA0F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhodesSort.Visualiser.Desktop", "RhodesSort.Visualiser.Desktop\RhodesSort.Visualiser.Desktop.csproj", "{19ED064A-B862-47DB-93F6-2C2D167A2FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhodesSort.Visualiser.XamMac", "RhodesSort.Visualiser.XamMac\RhodesSort.Visualiser.XamMac.csproj", "{C1D5B513-63A9-4F13-A01F-84931561B6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhodesSort.Algorithms", "RhodesSort.Algorithms\RhodesSort.Algorithms\RhodesSort.Algorithms.csproj", "{3911ED8F-4441-45A5-B204-663E3E9FDA43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65289B1F-4087-415D-9A46-F5093DFA0F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65289B1F-4087-415D-9A46-F5093DFA0F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65289B1F-4087-415D-9A46-F5093DFA0F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65289B1F-4087-415D-9A46-F5093DFA0F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19ED064A-B862-47DB-93F6-2C2D167A2FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19ED064A-B862-47DB-93F6-2C2D167A2FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19ED064A-B862-47DB-93F6-2C2D167A2FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19ED064A-B862-47DB-93F6-2C2D167A2FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D5B513-63A9-4F13-A01F-84931561B6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D5B513-63A9-4F13-A01F-84931561B6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D5B513-63A9-4F13-A01F-84931561B6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D5B513-63A9-4F13-A01F-84931561B6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3911ED8F-4441-45A5-B204-663E3E9FDA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3911ED8F-4441-45A5-B204-663E3E9FDA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3911ED8F-4441-45A5-B204-663E3E9FDA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3911ED8F-4441-45A5-B204-663E3E9FDA43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47857121-F23B-4FD1-B3FD-23A0B03BB92D}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+	EndGlobalSection
+EndGlobal
