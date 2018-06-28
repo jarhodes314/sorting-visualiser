@@ -18,7 +18,7 @@ namespace RhodesSort.Visualiser
         private List<Int32> hiddenList;
         public List<Movement> Cache = new List<Movement>(); // this should be private later on, but useful for debugging at the moment
 
-        public Int32 this[int index]
+        public virtual Int32 this[int index]
         {
             get { Cache.Add(new Movement(index, -1)); return hiddenList[index]; }
             set { Cache.Add(new Movement(index, value)); hiddenList[index] = value; }

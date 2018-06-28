@@ -13,7 +13,9 @@ namespace RhodesSort.Visualiser
 
         private int width, height, paddingw, paddingh, refw, refh;
 
-        public int Speed { get; set; } = 1;
+        private int speed;
+        private int shuffleCount;
+        private int sortSpeed;
 
         private static Color DotColor(int value, int length)
         {
@@ -24,10 +26,13 @@ namespace RhodesSort.Visualiser
             return color.ToColor();
         }
 
-        public DisparityDots(DisparityCachedList inputList)
+        public DisparityDots(DisparityCachedList inputList, int sCount = 0, int shSpeed = 1, int soSpeed = 1)
         {
             disparities = inputList;
             length = inputList.Length;
+            shuffleCount = sCount;
+            speed = shSpeed;
+            sortSpeed = soSpeed;
         }
 
         private RectangleF GetRectangle(int value, int disparity)
@@ -64,17 +69,26 @@ namespace RhodesSort.Visualiser
             refh = height - paddingh * 2;
 
 
-            for (int i = 0; i < Speed - 1; i++)
+            for (int i = 0; i < speed - 1; i++)
             {
                 disparities.StepForward();
+                shuffleCount--;
+
             }
 
+
             var indexListPair = disparities.StepForward();
+            shuffleCount--;
+
+            if (shuffleCount <= 0)
+            {
+                speed = sortSpeed;
+            }
 
             var list = indexListPair.Value;
             var index = indexListPair.Key;
 
-            //graphics.FillRectangle(new SolidBrush(Colors.Black), graphics.ClipBounds);
+            graphics.FillRectangle(new SolidBrush(Colors.Black), graphics.ClipBounds);
 
             if (index != -1)
             {
@@ -83,7 +97,7 @@ namespace RhodesSort.Visualiser
                 // coordinates of the centre
                 float cx = paddingw + refw / 2f;
                 float cy = paddingh + refh / 2f;
-                graphics.DrawLine(Colors.Black, cx, cy, rect.X, rect.Y);
+                graphics.DrawLine(Colors.White, cx, cy, rect.X, rect.Y);
                 graphics.FillEllipse(new SolidBrush(DotColor(value, length)), rect);
             }
 
