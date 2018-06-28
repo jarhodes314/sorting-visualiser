@@ -47,6 +47,7 @@ namespace RhodesSort.Visualiser
             list.Add(new CocktailShakerSort());
             list.Add(new SelectionSort());
             list.Add(new InsertionSort());
+            list.Add(new MergeSort());
 
             foreach (var item in list)
             {
@@ -94,8 +95,11 @@ namespace RhodesSort.Visualiser
 
             SortingAlgorithm algorithm = AlgorithmDictionary[lb.SelectedKey.ToString()];
             instance = algorithm;
-            CachingList list = new CachingList(500);
+            //CachingList list = new CachingList(1000);
+            CachingList list = new NoGetCachingList(1000);
             FisherYates.Shuffle<Int32>(list);
+
+            int shuffleCount = list.Cache.Count;
 
             Console.WriteLine(string.Join<int>(",", list));
             instance.Sort<Int32>(list);
@@ -103,15 +107,13 @@ namespace RhodesSort.Visualiser
             Console.WriteLine(string.Join<int>(",", list));
 
             DisparityCachedList disparities = new DisparityCachedList(list);
-            DisparityDots dots = new DisparityDots(disparities);
-
-            dots.Speed = 30;
+            DisparityDots dots = new DisparityDots(disparities, shuffleCount, 10, 10 * algorithm.SpeedMultiplier);
 
             drawable = new Drawable();
             drawable.Paint += dots.OnPaint;
 
             UITimer timer = new UITimer();
-            timer.Interval = 0.005;
+            timer.Interval = 0.0005;
             //Drawable.RegisterEvent(dots.OnPaint,)
             timer.Elapsed += (ts, te) =>
             {
